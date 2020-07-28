@@ -17,7 +17,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("tezAlServer.zoomSp.controller"))
+                        .basePackage("zoomSp.controller"))
                 .paths(PathSelectors.regex("/.*"))
                 .build().apiInfo(apiEndPointsInfo());
     }
@@ -25,8 +25,8 @@ public class SwaggerConfig {
     private ApiInfo apiEndPointsInfo() {
         return new ApiInfoBuilder().title("Spring Boot REST API")
                 .description("TezAL <br>" +
-                        "<b> Атай,  Адилет, Байкал</b><br><br>" +
-                        "<<ссылка на гит будет тут>><br>" +
+                        "<b> Атай</b><br><br>" +
+                        "<<https://github.com/Regingman/ZoomSp>> git<br>" +
                         "2020")
                 .version("1.0.0")
                 .build();
