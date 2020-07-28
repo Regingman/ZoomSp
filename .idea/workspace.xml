@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0d453d-38ae-4f78-a902-850a6da98616" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ZoomSpApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FacultyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/GroupsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LessonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/TimeTableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/TimeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repo/DepartmentsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repo/FacultysRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repo/GroupsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repo/LessonsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repo/TeachersRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repo/TimeTablesRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/EntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/FacultyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/GroupsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Impl/FacultyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Impl/GroupsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Impl/LessonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Impl/TeacherServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Impl/TimeTableServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/LessonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/TimeTableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +68,7 @@
       <workItem from="1595934533792" duration="1369000" />
       <workItem from="1595935929784" duration="1808000" />
       <workItem from="1595937848357" duration="1791000" />
-      <workItem from="1595939664260" duration="581000" />
+      <workItem from="1595939664260" duration="1132000" />
     </task>
     <servers />
   </component>
