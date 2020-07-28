@@ -13,6 +13,7 @@ import zoomSp.repo.TimeTablesRepo;
 import java.util.List;
 
 @Api(description = "Операции по взаимодействию с парами")
+@CrossOrigin(maxAge = 3600)
 @RestController
 @RequestMapping("timeTable")
 public class TimeTableController {
@@ -24,6 +25,7 @@ public class TimeTableController {
         this.timeTableRepo = timeTablesRepo;
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Получения списка всех пар")
     @GetMapping
     public ResponseEntity<List<TimeTable>> List(){
@@ -35,6 +37,7 @@ public class TimeTableController {
     }
 
 
+    @CrossOrigin
     @ApiOperation(value = "Получения пар по id")
     @GetMapping("{id}")
     public ResponseEntity<TimeTable> List(@PathVariable("id") Long id){
@@ -43,6 +46,7 @@ public class TimeTableController {
     }
 
 
+    @CrossOrigin
     @ApiOperation(value = "Создание пар")
     @PostMapping
     public ResponseEntity<TimeTable> create(@RequestBody TimeTable  timeTable){
@@ -53,6 +57,7 @@ public class TimeTableController {
         return  new ResponseEntity<>(timeTable, HttpStatus.CREATED);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Обновление пар")
     @PutMapping("{id}")
     public ResponseEntity<TimeTable> update(
@@ -69,6 +74,7 @@ public class TimeTableController {
         return new ResponseEntity<>(timeTableFromDb, HttpStatus.OK);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Удаление пар")
     @DeleteMapping("{id}")
     public  ResponseEntity<TimeTable> delete(@PathVariable("id") Long timeTableId){

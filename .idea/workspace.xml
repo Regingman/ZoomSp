@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0d453d-38ae-4f78-a902-850a6da98616" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zoomSp/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/controller/FacultyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/FacultyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/controller/GroupsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/GroupsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/controller/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/LessonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/controller/TimeTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/TimeTableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ZoomSp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +79,9 @@
       <workItem from="1595935929784" duration="1808000" />
       <workItem from="1595937848357" duration="1791000" />
       <workItem from="1595939664260" duration="1844000" />
-      <workItem from="1595941613817" duration="282000" />
+      <workItem from="1595941613817" duration="1785000" />
+      <workItem from="1595943569567" duration="490000" />
+      <workItem from="1595946336477" duration="344000" />
     </task>
     <servers />
   </component>

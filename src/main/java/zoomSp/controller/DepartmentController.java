@@ -13,6 +13,7 @@ import zoomSp.repo.DepartmentsRepo;
 import java.util.List;
 
 @Api(description = "Операции по взаимодействию с Кафедрами")
+@CrossOrigin(maxAge = 3600)
 @RestController
 @RequestMapping("department")
 public class DepartmentController {
@@ -24,6 +25,7 @@ public class DepartmentController {
         this.departmentRepo = departmentsRepo;
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Получения списка всех кафедр")
     @GetMapping
     public ResponseEntity<List<Department>> List(){
@@ -34,7 +36,7 @@ public class DepartmentController {
         return new ResponseEntity<>(departments, HttpStatus.OK);
     }
 
-
+    @CrossOrigin
     @ApiOperation(value = "Получения кафедры по id")
     @GetMapping("{id}")
     public ResponseEntity<Department> List(@PathVariable("id") Long id){
@@ -53,6 +55,7 @@ public class DepartmentController {
         return  new ResponseEntity<>(department, HttpStatus.CREATED);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Обновление кафедры")
     @PutMapping("{id}")
     public ResponseEntity<Department> update(
@@ -69,6 +72,7 @@ public class DepartmentController {
         return new ResponseEntity<>(departmentFromDb, HttpStatus.OK);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Удаление кафедры")
     @DeleteMapping("{id}")
     public  ResponseEntity<Department> delete(@PathVariable("id") Long departmentId){

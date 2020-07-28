@@ -13,6 +13,7 @@ import zoomSp.repo.GroupsRepo;
 import java.util.List;
 
 @Api(description = "Операции по взаимодействию с группами")
+@CrossOrigin(maxAge = 3600)
 @RestController
 @RequestMapping("groups")
 public class GroupsController {
@@ -24,6 +25,7 @@ public class GroupsController {
         this.groupsRepo = groupssRepo;
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Получения списка всех групп")
     @GetMapping
     public ResponseEntity<List<Groups>> List(){
@@ -34,7 +36,7 @@ public class GroupsController {
         return new ResponseEntity<>(groupss, HttpStatus.OK);
     }
 
-
+    @CrossOrigin
     @ApiOperation(value = "Получения группы по id")
     @GetMapping("{id}")
     public ResponseEntity<Groups> List(@PathVariable("id") Long id){
@@ -42,7 +44,7 @@ public class GroupsController {
         return new ResponseEntity<>(groups, HttpStatus.OK);
     }
 
-
+    @CrossOrigin
     @ApiOperation(value = "Создание группы")
     @PostMapping
     public ResponseEntity<Groups> create(@RequestBody Groups  groups){
@@ -53,6 +55,7 @@ public class GroupsController {
         return  new ResponseEntity<>(groups, HttpStatus.CREATED);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Обновление группы")
     @PutMapping("{id}")
     public ResponseEntity<Groups> update(
@@ -69,6 +72,7 @@ public class GroupsController {
         return new ResponseEntity<>(groupsFromDb, HttpStatus.OK);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Удаление группы")
     @DeleteMapping("{id}")
     public  ResponseEntity<Groups> delete(@PathVariable("id") Long groupsId){

@@ -13,6 +13,7 @@ import zoomSp.repo.LessonsRepo;
 import java.util.List;
 
 @Api(description = "Операции по взаимодействию с уроками")
+@CrossOrigin(maxAge = 3600)
 @RestController
 @RequestMapping("lesson")
 public class LessonController {
@@ -24,6 +25,7 @@ public class LessonController {
         this.lessonRepo = lessonsRepo;
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Получения списка всех уроков")
     @GetMapping
     public ResponseEntity<List<Lesson>> List(){
@@ -34,7 +36,7 @@ public class LessonController {
         return new ResponseEntity<>(lessons, HttpStatus.OK);
     }
 
-
+    @CrossOrigin
     @ApiOperation(value = "Получения урока по id")
     @GetMapping("{id}")
     public ResponseEntity<Lesson> List(@PathVariable("id") Long id){
@@ -42,7 +44,7 @@ public class LessonController {
         return new ResponseEntity<>(lesson, HttpStatus.OK);
     }
 
-
+    @CrossOrigin
     @ApiOperation(value = "Создание урока")
     @PostMapping
     public ResponseEntity<Lesson> create(@RequestBody Lesson  lesson){
@@ -53,6 +55,7 @@ public class LessonController {
         return  new ResponseEntity<>(lesson, HttpStatus.CREATED);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Обновление урока")
     @PutMapping("{id}")
     public ResponseEntity<Lesson> update(
@@ -69,6 +72,7 @@ public class LessonController {
         return new ResponseEntity<>(lessonFromDb, HttpStatus.OK);
     }
 
+    @CrossOrigin
     @ApiOperation(value = "Удаление урока")
     @DeleteMapping("{id}")
     public  ResponseEntity<Lesson> delete(@PathVariable("id") Long lessonId){
