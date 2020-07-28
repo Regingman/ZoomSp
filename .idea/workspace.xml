@@ -2,6 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0d453d-38ae-4f78-a902-850a6da98616" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ZoomSpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/ZoomSpApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FacultyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/FacultyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GroupsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/GroupsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/LessonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TimeTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/TimeTableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/domain/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/domain/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/domain/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/domain/Lesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/domain/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/TimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/domain/TimeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repo/DepartmentsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/repo/DepartmentsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repo/FacultysRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/repo/FacultysRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repo/GroupsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/repo/GroupsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repo/LessonsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/repo/LessonsRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repo/TeachersRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/repo/TeachersRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repo/TimeTablesRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/repo/TimeTablesRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/EntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/EntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/FacultyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/FacultyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/GroupsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/GroupsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/Impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Impl/FacultyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/Impl/FacultyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Impl/GroupsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/Impl/GroupsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Impl/LessonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/Impl/LessonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/Impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Impl/TimeTableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/Impl/TimeTableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/LessonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/LessonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/TimeTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/service/TimeTableService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +82,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZoomSpApplication" />
+    <configuration name="ZoomSpApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zoomSp.ZoomSpApplication" />
       <module name="ZoomSp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,7 +103,7 @@
       <workItem from="1595934533792" duration="1369000" />
       <workItem from="1595935929784" duration="1808000" />
       <workItem from="1595937848357" duration="1791000" />
-      <workItem from="1595939664260" duration="1132000" />
+      <workItem from="1595939664260" duration="1299000" />
     </task>
     <servers />
   </component>
