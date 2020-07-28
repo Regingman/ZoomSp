@@ -24,7 +24,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiEndPointsInfo() {
         return new ApiInfoBuilder().title("Spring Boot REST API")
-                .description("TezAL <br>" +
+                .description("ZoomSp <br>" +
                         "<b> Атай</b><br><br>" +
                         "<<https://github.com/Regingman/ZoomSp>> git<br>" +
                         "2020")
