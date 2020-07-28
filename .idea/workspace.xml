@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0d453d-38ae-4f78-a902-850a6da98616" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/config/SwaggerConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +73,7 @@
       <workItem from="1595941613817" duration="1785000" />
       <workItem from="1595943569567" duration="490000" />
       <workItem from="1595946336477" duration="344000" />
-      <workItem from="1595947144933" duration="367000" />
+      <workItem from="1595947144933" duration="598000" />
     </task>
     <servers />
   </component>
