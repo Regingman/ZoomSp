@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0d453d-38ae-4f78-a902-850a6da98616" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/ZoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zoomSp/domain/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zoomSp/repo/TokensRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoomSp/controller/ZoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoomSp/controller/ZoomController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +80,10 @@
       <workItem from="1595946336477" duration="344000" />
       <workItem from="1595947144933" duration="598000" />
       <workItem from="1596095272965" duration="653000" />
-      <workItem from="1596097731588" duration="1628000" />
+      <workItem from="1596097731588" duration="1819000" />
+      <workItem from="1596099673066" duration="2055000" />
+      <workItem from="1596185192653" duration="1774000" />
+      <workItem from="1596187151389" duration="779000" />
     </task>
     <servers />
   </component>
