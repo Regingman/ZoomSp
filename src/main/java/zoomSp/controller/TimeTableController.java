@@ -36,6 +36,17 @@ public class TimeTableController {
         return new ResponseEntity<>(timeTables, HttpStatus.OK);
     }
 
+    @CrossOrigin
+    @ApiOperation(value = "Получения списка всех пар одной группы")
+    @GetMapping("groups/{id}")
+    public ResponseEntity<List<TimeTable>> ListGroups(@PathVariable("id") Long id){
+        List<TimeTable> timeTables = timeTableRepo.getGroupsLessons(id);
+        if(timeTables.isEmpty()){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(timeTables, HttpStatus.OK);
+    }
+
 
     @CrossOrigin
     @ApiOperation(value = "Получения пар по id")
